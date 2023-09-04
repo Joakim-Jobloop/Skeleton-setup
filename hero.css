@@ -1,0 +1,25 @@
+section.hero {
+    min-height: calc(100vh - 80px);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px
+}
+
+.hero-image {
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 400px;
+    border: 2px solid green;
+}
+
+.hero-text {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.hero-image img {
+    width: 100%;
+}

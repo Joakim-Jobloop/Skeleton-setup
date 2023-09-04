@@ -1,0 +1,50 @@
+section.intro {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 50vh;
+    margin-inline: 0;
+    background-color: rgb(196, 195, 195);
+}
+
+section.intro div.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+
+}
+
+section.intro div.box1 {
+    background-color: rgb(194, 78, 78);
+}
+
+section.intro div.box2 {
+    background-color: rgb(85, 197, 109);
+}
+
+section.intro div.box3 {
+    background-color: rgb(83, 105, 206);
+}
+
+section.intro div.box4 {
+    background-color: rgb(183, 206, 83);
+
+}
+
+.box div.box_top {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+    align-items: center;
+}
+
+.box div.box_top h2 {
+    margin-inline: 20px;
+    color: white;
+}
